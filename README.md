@@ -1,4 +1,4 @@
-## Treinamento Digital Innovation One - Exercicio - Multiplicação Simples
+## Treinamento Digital Innovation One - Exercicio - Folha de Pagamento
 
 O exercicio publicado é referente ao treinamento do BOOTCAMP - Desenvolvedor NodeJS - Introdução a Programação Com Java Script 
 (https://digitalinnovation.one)
