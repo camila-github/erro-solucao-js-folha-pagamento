@@ -40,31 +40,48 @@ Exemplos de Entrada  | Exemplos de Saída
 #### Javascript　
 
 ```javascript
-//SOLUCAO 1
-/*Leitura dos dados de entrada*/
+//SOLUCAO 1 
+/* Utilizando variaveis constantes (const) e ajustado nomenclatura das constantes (Uso de conceitos CleanCode) */ 
+
+/*Leitura da primeira entrada (gets()) referente o numero do funcionario.*/
+const numeroDoFuncionario = parseInt(gets());
+
+/*Leitura da quantidadeHora e valorHora.*/ 
+const quantidadeHora = parseInt(gets());
+const valorHora = parseFloat(gets());
+
+/*Mostra resultado do numero do funcionario no console*/
+console.log("NUMBER = " + numeroDoFuncionario);
+
+/*Calcula e Mostra resultado do salario no console retirando no final duas casas decimais (.toFixed())*/
+console.log("SALARY = U$ " + parseFloat(quantidadeHora * valorHora).toFixed(2));
+
+
+//SOLUCAO 2
+/*Leitura dos dados de entrada (gets())*/
 var numFunc = parseInt(gets());
 var qHora = parseInt(gets());
 var vHora = parseFloat(gets());
-/*Calcula, retirando no final do resultado, duas cadas decimais*/
+/*Calcula, retirando no final do resultado, duas cadas decimais (.toFixed())*/
 var salario = parseFloat(qHora * vHora).toFixed(2);
 /*Mostra os dados*/
 console.log("NUMBER = " + numFunc);
 console.log("SALARY = U$ " + salario);
 
 
-//SOLUCAO 2 - Resumido
-/*Leitura da primeira entrada referente o numero do funcionario*/
+//SOLUCAO 3 - Resumido
+/*Leitura da primeira entrada (gets) referente o numero do funcionario*/
 var numFunc = parseInt(gets());
-/*Leitura da quantidadeHora e valorHora. Calcula, retirando no final do resultado, duas cadas decimais*/
+/*Leitura da quantidadeHora e valorHora. Calcula, retirando no final do resultado, duas cadas decimais (.toFixed())*/
 var salario = parseFloat(parseInt(gets()) * parseFloat(gets())).toFixed(2);
 /*Mostra o resultado no console*/
 console.log("NUMBER = " + numFunc);
 console.log("SALARY = U$ " + salario);
 
 
-//SOLUCAO 3 - Resumido
-/*Leitura da primeira entrada referente o numero do funcionario. Mostra resultado no console*/
+//SOLUCAO 4 - Resumido
+/*Leitura da primeira entrada (gets()) referente o numero do funcionario. Mostra resultado no console*/
 console.log("NUMBER = " + parseInt(gets()));
-/*Leitura da quantidadeHora e valorHora. Calcula. Mostra resultado no console retirando no final duas casas decimais*/
+/*Leitura da quantidadeHora e valorHora. Calcula. Mostra resultado no console retirando no final duas casas decimais (.toFixed())*/
 console.log("SALARY = U$ " + (parseFloat(parseInt(gets()) * parseFloat(gets())).toFixed(2)));
 ```
