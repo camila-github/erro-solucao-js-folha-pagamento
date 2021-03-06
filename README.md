@@ -37,6 +37,9 @@ Exemplos de Entrada  | Exemplos de Saída
 
 
 
+#### Update:
+06-03-2021 - Utilizando variaveis constantes (const) e ajustado nomenclatura das constantes (Uso de conceitos CleanCode)
+
 #### Javascript　
 
 ```javascript
